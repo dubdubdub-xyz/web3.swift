@@ -26,8 +26,8 @@ let package = Package(
                     .target(name: "keccaktiny"),
                     .target(name: "aes"),
                     .target(name: "Internal_CryptoSwift_PBDKF2"),
-                    .target(name: "BigInt", package: "BigInt"),
-                    .target(name: "GenericJSON", package: "GenericJSON"),
+                    .target(name: "BigInt"),
+                    .target(name: "GenericJSON"),
                     .product(name: "secp256k1", package: "secp256k1.swift"),
                     .product(name: "WebSocketKit", package: "websocket-kit"),
                     .product(name: "Logging", package: "swift-log")
